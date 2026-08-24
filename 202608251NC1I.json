@@ -1,0 +1,841 @@
+{
+  "meta": {
+    "title": "【机器学习】损失函数全解_从MSE到交叉熵",
+    "author": "帚暞鷞",
+    "time": "2026年08月25日04时12分47秒",
+    "version": "2.0"
+  },
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListOrder": "https://schema.org/ItemListOrderUnordered",
+  "name": "“闪兵案”开庭修杰楷当庭认罪求缓刑！坤达牵线",
+  "description": "1942年、斯大林格勒大会战在纳粹德国和苏联之间展开",
+  "about": {
+    "@type": "Thing",
+    "name": "www.blog.hrrxr.cn"
+  },
+  "mainEntity": {
+    "@type": "WebPage",
+    "name": "没想到狗血剧情发生我身上",
+    "description": "内容页的详细描述，可包含www.blog.hrrxr.cn的相关信息。",
+    "author": {
+      "@type": "Person",
+      "name": "觥喍訠"
+    },
+    "datePublished": "2026年08月25日04时12分47秒",
+    "dateModified": "2026年08月25日04时12分47秒",
+    "inLanguage": "zh-CN",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "国家发改委、国家能源局印发《石油天然气发展“十五五”规划》，2030年国内油气供应量目标4.4亿吨油当量",
+      "url": "www.blog.hrrxr.cn/Article/details/517282.sHtML"
+    }
+  },
+  "share_links": [
+    {
+      "platform": "被 AI 碾压 30 年后，人们重新爱上了下棋",
+      "share_url": "www.blog.hrrxr.cn/Article/details/334935.sHtML"
+    },
+{
+      "platform": "国家气候中心：厄尔尼诺快速发展，大概率成历史最强，预计11—12月达峰值",
+      "share_url": "www.blog.hrrxr.cn/Article/details/522353.sHtML"
+    },
+{
+      "platform": "引领智能手机迈入具身交互时代 全球首款机器人手机荣耀Robot Phone发布",
+      "share_url": "www.blog.hrrxr.cn/Article/details/183065.sHtML"
+    },
+{
+      "platform": "AI Agent 都在疯狂加功能，它说：我全砍了",
+      "share_url": "www.blog.hrrxr.cn/Article/details/924058.sHtML"
+    },
+{
+      "platform": "江苏“隐形高温”持续，体感闷热，警惕分散性雷阵雨突袭",
+      "share_url": "www.blog.hrrxr.cn/Article/details/150905.sHtML"
+    },
+{
+      "platform": "2女孩买3张火车票 无座乘客想坐被拒",
+      "share_url": "www.blog.hrrxr.cn/Article/details/398676.sHtML"
+    },
+{
+      "platform": "东北第一城等到重开一局",
+      "share_url": "www.blog.hrrxr.cn/Article/details/068473.sHtML"
+    },
+{
+      "platform": "召唤大将怪兽摧毁文件",
+      "share_url": "www.blog.hrrxr.cn/Article/details/257122.sHtML"
+    },
+{
+      "platform": "快手 2026 财年上半年归母净利润 60.49 亿元，同比下降 32%",
+      "share_url": "www.blog.hrrxr.cn/Article/details/842151.sHtML"
+    },
+    {
+      "platform": "孩子滔滔不绝跟你讲游戏里的细节，你会怎么反应？",
+      "share_url": "www.blog.hrrxr.cn/Article/details/053453.sHtML"
+    },
+{
+      "platform": "保姆因无法生育，拐走雇主家10月龄男婴35年，养子追问身世时谎称路边捡的，保姆因犯拐骗儿童罪获刑3年，警方还原当年案发经过",
+      "share_url": "www.blog.hrrxr.cn/Article/details/191609.sHtML"
+    },
+{
+      "platform": "金山云 2026 财年半年报归母亏损 4.37 亿元，同比下降 43.4%",
+      "share_url": "www.blog.hrrxr.cn/Article/details/113479.sHtML"
+    },
+{
+      "platform": "中国航天事业的开拓者之一、运载火箭与战略导弹控制技术专家刘纪原逝世",
+      "share_url": "www.blog.hrrxr.cn/Article/details/901046.sHtML"
+    },
+{
+      "platform": "国家医保局：首批158个基层病种实行“同病同付”，医保即时结算覆盖超九成定点机构",
+      "share_url": "www.blog.hrrxr.cn/Article/details/871616.sHtML"
+    },
+{
+      "platform": "为什么美银认为腾讯AI迎来“中途岛时刻”？",
+      "share_url": "www.blog.hrrxr.cn/Article/details/194693.sHtML"
+    },
+{
+      "platform": "迁移uni-app x，我是如何让 AI 把我一步步搞崩溃的...",
+      "share_url": "www.blog.hrrxr.cn/Article/details/685631.sHtML"
+    },
+{
+      "platform": "SQL Server 迁移到 KingbaseES：一次复杂 BI 查询的性能实测",
+      "share_url": "www.blog.hrrxr.cn/Article/details/436965.sHtML"
+    },
+{
+      "platform": "女子乘飞机后眼前现黑影",
+      "share_url": "www.blog.hrrxr.cn/Article/details/552526.sHtML"
+    },
+{
+      "platform": "官方通报佛山一中学教师招聘违规事件",
+      "share_url": "www.blog.hrrxr.cn/Article/details/209227.sHtML"
+    },
+    {
+      "platform": "爆火 Vue3 手势库：轻松实现手势功能，兼容PC端、移动端",
+      "share_url": "www.blog.hrrxr.cn/Article/details/624604.sHtML"
+    },
+{
+      "platform": "乌克兰防空陷入越打越亏死循环",
+      "share_url": "www.blog.hrrxr.cn/Article/details/555300.sHtML"
+    },
+{
+      "platform": "罗马诺：曼联6500万镑报价巴莱巴，交易接近完成",
+      "share_url": "www.blog.hrrxr.cn/Article/details/062745.sHtML"
+    },
+{
+      "platform": "名侦探柯南大结局已经画好了",
+      "share_url": "www.blog.hrrxr.cn/Article/details/077652.sHtML"
+    },
+{
+      "platform": "【HTTPS】一个“S“背后的战争：五轮迭代还原 HTTPS 设计全貌",
+      "share_url": "www.blog.hrrxr.cn/Article/details/271393.sHtML"
+    },
+{
+      "platform": "Seedance 2.5来了，但行业真的准备好了吗？",
+      "share_url": "www.blog.hrrxr.cn/Article/details/267862.sHtML"
+    },
+{
+      "platform": "我国首次火箭陆地回收全过程",
+      "share_url": "www.blog.hrrxr.cn/Article/details/902795.sHtML"
+    },
+{
+      "platform": "俄乌互换103名被俘人员",
+      "share_url": "www.blog.hrrxr.cn/Article/details/532611.sHtML"
+    },
+{
+      "platform": "中铁二局新运公司被住建部警告，1年内不得再次申请这项行政许可",
+      "share_url": "www.blog.hrrxr.cn/Article/details/872088.sHtML"
+    },
+{
+      "platform": "韩国外长谈特朗普突然施压的两大目的",
+      "share_url": "www.blog.hrrxr.cn/Article/details/524027.sHtML"
+    },
+    {
+      "platform": "22岁名校女生突然被"绑架"到700公里外 经历59天炼狱",
+      "share_url": "www.blog.hrrxr.cn/Article/details/412963.sHtML"
+    },
+{
+      "platform": "1985年、北回归线标志塔在广州落成",
+      "share_url": "www.blog.hrrxr.cn/Article/details/684175.sHtML"
+    },
+{
+      "platform": "“假总编”被聘为真顾问：陕西千阳曾提出全县文化单位为张龙提供工作便利",
+      "share_url": "www.blog.hrrxr.cn/Article/details/939303.sHtML"
+    },
+{
+      "platform": "我奔跑的时候拿着手电筒向前射出一束光，那这束光的速度是不是相对地面超过了光速？",
+      "share_url": "www.blog.hrrxr.cn/Article/details/552888.sHtML"
+    },
+{
+      "platform": "Qwen3.8-27B开源实测：本地部署+Coze接入全流程，27B多模态模型16GB显卡可跑",
+      "share_url": "www.blog.hrrxr.cn/Article/details/216254.sHtML"
+    },
+{
+      "platform": "苏神百万年薪简历翻车：一个包装争议，给后端同学的 5 个工程视角警示",
+      "share_url": "www.blog.hrrxr.cn/Article/details/671750.sHtML"
+    },
+{
+      "platform": "第18号台风沙德尔生成",
+      "share_url": "www.blog.hrrxr.cn/Article/details/599129.sHtML"
+    },
+{
+      "platform": "Project Trust 不是 Sandbox：Pi Agent 的安全边界怎样补齐",
+      "share_url": "www.blog.hrrxr.cn/Article/details/413242.sHtML"
+    },
+{
+      "platform": "王兴兴谈离开大疆创办宇树：从小就热爱机器人，2016 年就已预判到技术发展方向和趋势",
+      "share_url": "www.blog.hrrxr.cn/Article/details/187378.sHtML"
+    },
+{
+      "platform": "台军试射火箭偏轨自毁",
+      "share_url": "www.blog.hrrxr.cn/Article/details/964396.sHtML"
+    },
+    {
+      "platform": "男子将遗产全部留给弟弟不给妻儿",
+      "share_url": "www.blog.hrrxr.cn/Article/details/193601.sHtML"
+    },
+{
+      "platform": "福特号，林肯号好歹打了大半年才开始闹，这尼玛华盛顿号刚出港就开始闹？真贼配军……",
+      "share_url": "www.blog.hrrxr.cn/Article/details/281039.sHtML"
+    },
+{
+      "platform": "穆西亚拉连场热身赛晕倒",
+      "share_url": "www.blog.hrrxr.cn/Article/details/354221.sHtML"
+    },
+{
+      "platform": "特斯拉确认不会恢复FSD用户自定义最高速度功能，引发车主不满",
+      "share_url": "www.blog.hrrxr.cn/Article/details/687265.sHtML"
+    },
+{
+      "platform": "去年还在打麻将的机器人，今年想上班了？",
+      "share_url": "www.blog.hrrxr.cn/Article/details/454352.sHtML"
+    },
+{
+      "platform": "七夕广东迎来领证高峰",
+      "share_url": "www.blog.hrrxr.cn/Article/details/897378.sHtML"
+    },
+{
+      "platform": "突发，Fable 5.1泄露了！Claude又叒叕全球大宕机",
+      "share_url": "www.blog.hrrxr.cn/Article/details/650212.sHtML"
+    },
+{
+      "platform": "CMS_Setup(3.0.2.11)电脑端添加各个品牌监控",
+      "share_url": "www.blog.hrrxr.cn/Article/details/163198.sHtML"
+    },
+{
+      "platform": "性侵幼女、枪杀妻子，美国一曾任职警局红通逃犯潜逃来华，化身高校外教颇受欢迎，被学生在通缉令上认出，已被中国警方遣返回美",
+      "share_url": "www.blog.hrrxr.cn/Article/details/939104.sHtML"
+    },
+{
+      "platform": "FREELANDER神行者8开启预售，大六座版预售价34.99万元起、大五座版预",
+      "share_url": "www.blog.hrrxr.cn/Article/details/120740.sHtML"
+    },
+    {
+      "platform": "老婆让我给她找健身搭子，手把手教学",
+      "share_url": "www.blog.hrrxr.cn/Article/details/901599.sHtML"
+    },
+{
+      "platform": "2026年最值得购买的B级轿车，比亚迪秦MAX上市9.99万元起",
+      "share_url": "www.blog.hrrxr.cn/Article/details/495158.sHtML"
+    },
+{
+      "platform": "杭州男子下班路上“多看一眼”，感觉事情必有蹊跷……3人落网",
+      "share_url": "www.blog.hrrxr.cn/Article/details/919954.sHtML"
+    },
+{
+      "platform": "情侣分手后因宠物狗打官司",
+      "share_url": "www.blog.hrrxr.cn/Article/details/949908.sHtML"
+    },
+{
+      "platform": "年会不能停2延长上映",
+      "share_url": "www.blog.hrrxr.cn/Article/details/781735.sHtML"
+    },
+{
+      "platform": "转转回收 RTX5090 仅报 1.3 万元引网友热议，二手平台定价是否合理？",
+      "share_url": "www.blog.hrrxr.cn/Article/details/595785.sHtML"
+    },
+{
+      "platform": "咖啡厅出片技巧之静物篇",
+      "share_url": "www.blog.hrrxr.cn/Article/details/747399.sHtML"
+    },
+{
+      "platform": "王星案嫌疑人被公诉",
+      "share_url": "www.blog.hrrxr.cn/Article/details/776769.sHtML"
+    },
+{
+      "platform": "接生医生竟是前夫，我疼得大喊：赶紧把你儿子拽出来，他瞬间愣了",
+      "share_url": "www.blog.hrrxr.cn/Article/details/829810.sHtML"
+    },
+{
+      "platform": "男子因12字评论被错误拘留5天案后续",
+      "share_url": "www.blog.hrrxr.cn/Article/details/892288.sHtML"
+    },
+    {
+      "platform": "一个不会游戏开发的人，用 AI 把一款小游戏做到上线了",
+      "share_url": "www.blog.hrrxr.cn/Article/details/873939.sHtML"
+    },
+{
+      "platform": "美军航母神话正在被发霉的厕所戳破",
+      "share_url": "www.blog.hrrxr.cn/Article/details/927078.sHtML"
+    },
+{
+      "platform": "现实中遇到这种人能躲就躲…",
+      "share_url": "www.blog.hrrxr.cn/Article/details/902903.sHtML"
+    },
+{
+      "platform": "第七届中非媒体合作论坛明日开幕",
+      "share_url": "www.blog.hrrxr.cn/Article/details/317461.sHtML"
+    },
+{
+      "platform": "微软产品改名有多频繁？2023 年改了 18 款，有粉丝专门为此建站追踪",
+      "share_url": "www.blog.hrrxr.cn/Article/details/387411.sHtML"
+    },
+{
+      "platform": "民事诉讼法+民法典查询工具",
+      "share_url": "www.blog.hrrxr.cn/Article/details/502638.sHtML"
+    },
+{
+      "platform": "就游了5分钟野泳，怎么就高烧、头疼、呕吐了？",
+      "share_url": "www.blog.hrrxr.cn/Article/details/082797.sHtML"
+    },
+{
+      "platform": "Claude Code 是怎么恢复一段会话的？",
+      "share_url": "www.blog.hrrxr.cn/Article/details/852222.sHtML"
+    },
+{
+      "platform": "造谣青岛大学旭日旗者被拘",
+      "share_url": "www.blog.hrrxr.cn/Article/details/489317.sHtML"
+    },
+{
+      "platform": "50岁果农到澳大利亚教人种葡萄 雇主为其提供别墅汽车",
+      "share_url": "www.blog.hrrxr.cn/Article/details/332659.sHtML"
+    },
+    {
+      "platform": "鸿蒙组件化设计横空出世",
+      "share_url": "www.blog.hrrxr.cn/Article/details/849304.sHtML"
+    },
+{
+      "platform": "夯爆了！！ 有这么好吃的猕猴桃，你怎么不早点告诉我！！！",
+      "share_url": "www.blog.hrrxr.cn/Article/details/107609.sHtML"
+    },
+{
+      "platform": "升学宴墙体倒塌致5死17伤，伤者家属：孩子一只脚已截肢，还在ICU",
+      "share_url": "www.blog.hrrxr.cn/Article/details/293983.sHtML"
+    },
+{
+      "platform": "贵州一村庄升学宴“瘦身”",
+      "share_url": "www.blog.hrrxr.cn/Article/details/985266.sHtML"
+    },
+{
+      "platform": "抖音通报色情低俗治理成果：有黑产团伙打造“单亲妈妈交友”人设导流，29 人被抓",
+      "share_url": "www.blog.hrrxr.cn/Article/details/703961.sHtML"
+    },
+{
+      "platform": "守岸人第57次取消发送～?",
+      "share_url": "www.blog.hrrxr.cn/Article/details/278213.sHtML"
+    },
+{
+      "platform": "用Spring Boot复刻了“微信消息撤回”：真正难的根本不是DELETE，而是让所有人的聊天窗口同时消失",
+      "share_url": "www.blog.hrrxr.cn/Article/details/860734.sHtML"
+    },
+{
+      "platform": "体育生最爱！上海168元铜锅涮肉自助，到底能不能回本？",
+      "share_url": "www.blog.hrrxr.cn/Article/details/276799.sHtML"
+    },
+{
+      "platform": "【七夕快乐】「跟你住」，“想搬进你心里，其它烦心的都不考虑”（cover：孙盛希）",
+      "share_url": "www.blog.hrrxr.cn/Article/details/520748.sHtML"
+    },
+{
+      "platform": "唐代石狮被盗警方悬赏100万",
+      "share_url": "www.blog.hrrxr.cn/Article/details/861005.sHtML"
+    },
+    {
+      "platform": "在自己买的小房子里，生活徐徐展开！",
+      "share_url": "www.blog.hrrxr.cn/Article/details/260710.sHtML"
+    },
+{
+      "platform": "是时候跟上蔡徐坤的old school了",
+      "share_url": "www.blog.hrrxr.cn/Article/details/223594.sHtML"
+    },
+{
+      "platform": "申花0-3国安后，一名身穿中国国家队武磊球衣的孩子与其父亲被极端申花球迷围住指责，你如何看待这件事情？",
+      "share_url": "www.blog.hrrxr.cn/Article/details/297675.sHtML"
+    },
+{
+      "platform": "即使 Agent 被劫持，也拿不到私钥：一种零信任 MCP 执行架构",
+      "share_url": "www.blog.hrrxr.cn/Article/details/167660.sHtML"
+    },
+{
+      "platform": "年亏17亿的“中国版SpaceX”，终于把火箭收回来了",
+      "share_url": "www.blog.hrrxr.cn/Article/details/415977.sHtML"
+    },
+{
+      "platform": "广西一女尼姑从18岁开始闭关，住悬崖山洞15年，养大了3个孩子",
+      "share_url": "www.blog.hrrxr.cn/Article/details/933515.sHtML"
+    },
+{
+      "platform": "孩童坐车道玩耍遭转弯车撞击",
+      "share_url": "www.blog.hrrxr.cn/Article/details/657242.sHtML"
+    },
+{
+      "platform": "我看见两朵一样的云",
+      "share_url": "www.blog.hrrxr.cn/Article/details/033531.sHtML"
+    },
+{
+      "platform": "DeepSeek Harness 公测，对标 Claude Cowork ；长鑫科技市值超越腾讯；OpenAI 年化营收有望翻番达 400 亿美元",
+      "share_url": "www.blog.hrrxr.cn/Article/details/299584.sHtML"
+    },
+{
+      "platform": "重大跨境赌博犯罪集团骨干落网",
+      "share_url": "www.blog.hrrxr.cn/Article/details/027575.sHtML"
+    },
+    {
+      "platform": "Marvell 与谷歌签署定制芯片协议并授予其大额认股权证：行权价 206.58 美元，盘前涨超 10%",
+      "share_url": "www.blog.hrrxr.cn/Article/details/680715.sHtML"
+    },
+{
+      "platform": "上海地铁预计平均每人次将贵1元左右",
+      "share_url": "www.blog.hrrxr.cn/Article/details/570114.sHtML"
+    },
+{
+      "platform": "全新深蓝S05上市11.59万元起，全球时尚激光智能SUV全面进阶",
+      "share_url": "www.blog.hrrxr.cn/Article/details/235697.sHtML"
+    },
+{
+      "platform": "老人别把“没力气”当正常衰老",
+      "share_url": "www.blog.hrrxr.cn/Article/details/018873.sHtML"
+    },
+{
+      "platform": "西安通报赛格商场与坠楼者纠纷情况",
+      "share_url": "www.blog.hrrxr.cn/Article/details/065685.sHtML"
+    },
+{
+      "platform": "交通运输部规划约6万公里“三环四横五纵”精品自驾旅游公路；商务部等推动新能源汽车、绿色智能家电下乡",
+      "share_url": "www.blog.hrrxr.cn/Article/details/947643.sHtML"
+    },
+{
+      "platform": "结婚8年发现三娃均非亲生 男方已将孩子全部送还女方",
+      "share_url": "www.blog.hrrxr.cn/Article/details/437484.sHtML"
+    },
+{
+      "platform": "【从0开始学习计算机网络】| CA证书、数字签名与中间人攻击：一次完整的安全握手之旅",
+      "share_url": "www.blog.hrrxr.cn/Article/details/425754.sHtML"
+    },
+{
+      "platform": "【AI智能体】Codex 生成高质量电商套图实战操作详解",
+      "share_url": "www.blog.hrrxr.cn/Article/details/549629.sHtML"
+    },
+{
+      "platform": "存储“三国杀”变局：三星扩大领先 美光追近海力士",
+      "share_url": "www.blog.hrrxr.cn/Article/details/556487.sHtML"
+    },
+    {
+      "platform": "阿哲综艺收官5100运气封神",
+      "share_url": "www.blog.hrrxr.cn/Article/details/980963.sHtML"
+    },
+{
+      "platform": "电车自驾游睡车上引发热议，反对者主要出于哪些考虑？",
+      "share_url": "www.blog.hrrxr.cn/Article/details/939713.sHtML"
+    },
+{
+      "platform": "为什么同一段代码在 Safari 上永远有 Bug？",
+      "share_url": "www.blog.hrrxr.cn/Article/details/884211.sHtML"
+    },
+{
+      "platform": "尼罗河都流经沙漠了，为什么没有水土流失？黄河却这么严重？",
+      "share_url": "www.blog.hrrxr.cn/Article/details/687674.sHtML"
+    },
+{
+      "platform": "报，国外晚上又是大涨。",
+      "share_url": "www.blog.hrrxr.cn/Article/details/670124.sHtML"
+    },
+{
+      "platform": "第十八个全民健身日，OPPO宣布将推出FatMax 超燃脂模式，助力全民运动健康",
+      "share_url": "www.blog.hrrxr.cn/Article/details/962024.sHtML"
+    },
+{
+      "platform": "孩子想要地铁，给不了啊",
+      "share_url": "www.blog.hrrxr.cn/Article/details/006751.sHtML"
+    },
+{
+      "platform": "两尊唐代石狮被人夜间盗走十余年 公安部门悬赏100万",
+      "share_url": "www.blog.hrrxr.cn/Article/details/298876.sHtML"
+    },
+{
+      "platform": "盈大地產：2026年上半年收入5.93亿港元，股东应占亏损1.89亿港元",
+      "share_url": "www.blog.hrrxr.cn/Article/details/305565.sHtML"
+    },
+{
+      "platform": "小螺号｜当二手车迎来补贴扶持，真正的考验才刚开始",
+      "share_url": "www.blog.hrrxr.cn/Article/details/715974.sHtML"
+    },
+    {
+      "platform": "该配合你演出的我视而不见",
+      "share_url": "www.blog.hrrxr.cn/Article/details/473735.sHtML"
+    },
+{
+      "platform": "【全网首发】Tobub：永久免费的本地智能自动化工具",
+      "share_url": "www.blog.hrrxr.cn/Article/details/422329.sHtML"
+    },
+{
+      "platform": "男子拒还借款杀害朋友2年后又砍死姑父灭口 被判死刑",
+      "share_url": "www.blog.hrrxr.cn/Article/details/807610.sHtML"
+    },
+{
+      "platform": "美国长期国债收益率为什么持续新高",
+      "share_url": "www.blog.hrrxr.cn/Article/details/106132.sHtML"
+    },
+{
+      "platform": "如果明清时间对换，明朝能不能避免我国近代的屈辱？",
+      "share_url": "www.blog.hrrxr.cn/Article/details/494221.sHtML"
+    },
+{
+      "platform": "2999 元起！哈浮 VERSA 飞行口袋云台相机问世，终结影像设备选择难题",
+      "share_url": "www.blog.hrrxr.cn/Article/details/033096.sHtML"
+    },
+{
+      "platform": "怎样理解“人心中的成见是一座大山”？",
+      "share_url": "www.blog.hrrxr.cn/Article/details/646299.sHtML"
+    },
+{
+      "platform": "新华社消息｜司法部发布关于欧盟外国补贴调查相关做法构成不当域外管辖的公告",
+      "share_url": "www.blog.hrrxr.cn/Article/details/803014.sHtML"
+    },
+{
+      "platform": "日本外务省回应美国制裁赤根智子：深表遗憾",
+      "share_url": "www.blog.hrrxr.cn/Article/details/815620.sHtML"
+    },
+{
+      "platform": "美国科研制度革命：创世纪计划与《科学：新黄金时代》解读",
+      "share_url": "www.blog.hrrxr.cn/Article/details/255632.sHtML"
+    },
+    {
+      "platform": "可自由切割合并的PDF尺寸调整打印工具",
+      "share_url": "www.blog.hrrxr.cn/Article/details/129566.sHtML"
+    },
+{
+      "platform": "AI 办公混战，腾讯百度抢先",
+      "share_url": "www.blog.hrrxr.cn/Article/details/801792.sHtML"
+    },
+{
+      "platform": "网络上常见的热门短视频集锦 第三千三百七十六期",
+      "share_url": "www.blog.hrrxr.cn/Article/details/487130.sHtML"
+    },
+{
+      "platform": "独臂少年刘宸瑞，考入清华",
+      "share_url": "www.blog.hrrxr.cn/Article/details/074023.sHtML"
+    },
+{
+      "platform": "伦敦一回收中心发生大火",
+      "share_url": "www.blog.hrrxr.cn/Article/details/321449.sHtML"
+    },
+{
+      "platform": "有报道称中联部已邀请日本国会议员下周访华 中方回应",
+      "share_url": "www.blog.hrrxr.cn/Article/details/112281.sHtML"
+    },
+{
+      "platform": "被马斯克点评赶超猎鹰9号的中国火箭，刚刚完成了一级火箭陆地垂直回收！",
+      "share_url": "www.blog.hrrxr.cn/Article/details/270765.sHtML"
+    },
+{
+      "platform": "为什么七夕朋友圈秀恩爱的变少了",
+      "share_url": "www.blog.hrrxr.cn/Article/details/411198.sHtML"
+    },
+{
+      "platform": "阿里二面：RAG的内容超出知识库范围，应该如何检测和拒绝回答，以避免幻觉产生？我说三点，面试官频频点头…",
+      "share_url": "www.blog.hrrxr.cn/Article/details/678035.sHtML"
+    },
+{
+      "platform": "本地跑一个 Qwen 3.8，你将拥有一个 Opus 4.6",
+      "share_url": "www.blog.hrrxr.cn/Article/details/513916.sHtML"
+    },
+    {
+      "platform": "【柯基】抽象电影《牛来》片尾曲｜《雨后轻风有香》",
+      "share_url": "www.blog.hrrxr.cn/Article/details/056796.sHtML"
+    },
+{
+      "platform": "我国首次实现火箭陆地回收",
+      "share_url": "www.blog.hrrxr.cn/Article/details/539043.sHtML"
+    },
+{
+      "platform": "天才少年离职卖玉米",
+      "share_url": "www.blog.hrrxr.cn/Article/details/385897.sHtML"
+    },
+{
+      "platform": "总台七夕晚会节目单",
+      "share_url": "www.blog.hrrxr.cn/Article/details/878699.sHtML"
+    },
+{
+      "platform": "竹知了事件的“罗生门”：华为投诉的是人身攻击，不是非遗玩具",
+      "share_url": "www.blog.hrrxr.cn/Article/details/577945.sHtML"
+    },
+{
+      "platform": "GPT-5.6 Sol暴涨三倍，OpenAI最强视觉AI登顶！",
+      "share_url": "www.blog.hrrxr.cn/Article/details/239120.sHtML"
+    },
+{
+      "platform": "反制美国！中方公布5项措施",
+      "share_url": "www.blog.hrrxr.cn/Article/details/215833.sHtML"
+    },
+{
+      "platform": "从流量风口到价值高地，AI爆发下的微短剧发展六大趋势",
+      "share_url": "www.blog.hrrxr.cn/Article/details/877559.sHtML"
+    },
+{
+      "platform": "水浒传抽象采访花絮",
+      "share_url": "www.blog.hrrxr.cn/Article/details/533655.sHtML"
+    },
+{
+      "platform": "奕境X9预售12小时订单突破16000台",
+      "share_url": "www.blog.hrrxr.cn/Article/details/818310.sHtML"
+    },
+    {
+      "platform": "AI开始自己研发AI！硅谷首席科学家：大模型研发可能在2030年前后实现全面自动化，程序员将面对海量Agent产出",
+      "share_url": "www.blog.hrrxr.cn/Article/details/215226.sHtML"
+    },
+{
+      "platform": "“龙餐馆”走红谁又“破防”了",
+      "share_url": "www.blog.hrrxr.cn/Article/details/835795.sHtML"
+    },
+{
+      "platform": "知识回顾：Vue 生命周期十道面试题，钩子函数必问",
+      "share_url": "www.blog.hrrxr.cn/Article/details/085332.sHtML"
+    },
+{
+      "platform": "21家百亿私募，现身31股前十大",
+      "share_url": "www.blog.hrrxr.cn/Article/details/783990.sHtML"
+    },
+{
+      "platform": "如何评价《一人之下》第773(827）话预告？",
+      "share_url": "www.blog.hrrxr.cn/Article/details/498860.sHtML"
+    },
+{
+      "platform": "三亚小众玩法 | 春天刚来，我便开始想念海边的漫时光",
+      "share_url": "www.blog.hrrxr.cn/Article/details/582598.sHtML"
+    },
+{
+      "platform": "大模型工程化实战（三）：LLM 灰度发布 + 自动熔断，1% 流量试错、指标劣化自动回滚",
+      "share_url": "www.blog.hrrxr.cn/Article/details/021514.sHtML"
+    },
+{
+      "platform": "全球市场大跳水原因",
+      "share_url": "www.blog.hrrxr.cn/Article/details/309170.sHtML"
+    },
+{
+      "platform": "曼联即将签下巴莱巴",
+      "share_url": "www.blog.hrrxr.cn/Article/details/770386.sHtML"
+    },
+{
+      "platform": "当代版“洛阳纸贵”！广西日报王虹特稿《王的猜想》火了，一份报纸炒到65元",
+      "share_url": "www.blog.hrrxr.cn/Article/details/220125.sHtML"
+    },
+    {
+      "platform": "《庆余年》演员在山西一景区当NPC，身高2.16米，“我需要稳定收入养家，如今AI短剧普及，很多演员长期无戏可拍……”",
+      "share_url": "www.blog.hrrxr.cn/Article/details/945279.sHtML"
+    },
+{
+      "platform": "沙特阿美突然“放量”：欧洲9月原油足额供应，恢复霍尔木兹海峡内装船",
+      "share_url": "www.blog.hrrxr.cn/Article/details/387461.sHtML"
+    },
+{
+      "platform": "证券业上演极致马太效应，形成三层稳态格局",
+      "share_url": "www.blog.hrrxr.cn/Article/details/513059.sHtML"
+    },
+{
+      "platform": "这家靠全景起步的公司，正在逐步让用户「忘掉相机」",
+      "share_url": "www.blog.hrrxr.cn/Article/details/720148.sHtML"
+    },
+{
+      "platform": "邀请网红参加奢华品牌活动，OpenAI营销引争议",
+      "share_url": "www.blog.hrrxr.cn/Article/details/725640.sHtML"
+    },
+{
+      "platform": "京东 WRC 2026 发布机器人战略：到 2028 年投入百亿级资源，助力 100 个品牌销售额破 10 亿元",
+      "share_url": "www.blog.hrrxr.cn/Article/details/901408.sHtML"
+    },
+{
+      "platform": "当地回应升学宴事故致5人死亡",
+      "share_url": "www.blog.hrrxr.cn/Article/details/581567.sHtML"
+    },
+{
+      "platform": "南京设立“骑士友好中转站”",
+      "share_url": "www.blog.hrrxr.cn/Article/details/643199.sHtML"
+    },
+{
+      "platform": "小说下载器 - 你的网文自由神器！",
+      "share_url": "www.blog.hrrxr.cn/Article/details/944744.sHtML"
+    },
+{
+      "platform": "明星七夕节集体秀恩爱",
+      "share_url": "www.blog.hrrxr.cn/Article/details/690966.sHtML"
+    },
+    {
+      "platform": "卡位BBA、突围新势力，魏牌V8X以“极致”定义大五座旗舰SUV价值标杆",
+      "share_url": "www.blog.hrrxr.cn/Article/details/264388.sHtML"
+    },
+{
+      "platform": "升学宴女儿墙垮塌村民发声",
+      "share_url": "www.blog.hrrxr.cn/Article/details/768920.sHtML"
+    },
+{
+      "platform": "女排时隔11年冲击亚洲冠军",
+      "share_url": "www.blog.hrrxr.cn/Article/details/678029.sHtML"
+    },
+{
+      "platform": "中方回应马来西亚总理涉台表态",
+      "share_url": "www.blog.hrrxr.cn/Article/details/834480.sHtML"
+    },
+{
+      "platform": "学者：俄土微妙关系面临严峻挑战",
+      "share_url": "www.blog.hrrxr.cn/Article/details/686980.sHtML"
+    },
+{
+      "platform": "江浙沪作为典型的南方地区，为什么嗜好面食，满大街都是面馆",
+      "share_url": "www.blog.hrrxr.cn/Article/details/365924.sHtML"
+    },
+{
+      "platform": "辣眼睛！三伏天公园又现“赤裸晒背”，有人说这是“个人自由”，有人觉得“不雅观”，医生提醒：这类人群坚决不能晒",
+      "share_url": "www.blog.hrrxr.cn/Article/details/028386.sHtML"
+    },
+{
+      "platform": "裁判评议：云南vs英博比赛中，英博三例申诉均被驳回，裁判判罚正确",
+      "share_url": "www.blog.hrrxr.cn/Article/details/174053.sHtML"
+    },
+{
+      "platform": "美军舰南海断电4天：厕所不能用，空调不能用，美元也开始发臭了",
+      "share_url": "www.blog.hrrxr.cn/Article/details/258098.sHtML"
+    },
+{
+      "platform": "享界G9自适应上锁实测首曝，各种复杂路况脱困无压力！",
+      "share_url": "www.blog.hrrxr.cn/Article/details/141864.sHtML"
+    },
+    {
+      "platform": "AI岗位招聘暴涨156%，年轻人吃肉，但女性、低学历很难分到蛋糕",
+      "share_url": "www.blog.hrrxr.cn/Article/details/425394.sHtML"
+    },
+{
+      "platform": "大学生版暴走大事件",
+      "share_url": "www.blog.hrrxr.cn/Article/details/204567.sHtML"
+    },
+{
+      "platform": "七界梦谭天上谣三测PV",
+      "share_url": "www.blog.hrrxr.cn/Article/details/628977.sHtML"
+    },
+{
+      "platform": "石家庄居民楼坍塌致3死",
+      "share_url": "www.blog.hrrxr.cn/Article/details/244864.sHtML"
+    },
+{
+      "platform": "七夕不用来了因为我的登来了",
+      "share_url": "www.blog.hrrxr.cn/Article/details/771476.sHtML"
+    },
+{
+      "platform": "舞蹈区集体cos洛天依跳舞",
+      "share_url": "www.blog.hrrxr.cn/Article/details/803975.sHtML"
+    },
+{
+      "platform": "一年半以前救助的小可爱",
+      "share_url": "www.blog.hrrxr.cn/Article/details/620606.sHtML"
+    },
+{
+      "platform": "七夕整点三角洲专属浪漫",
+      "share_url": "www.blog.hrrxr.cn/Article/details/487019.sHtML"
+    },
+{
+      "platform": "中国气象局启动暴雨四级应急响应",
+      "share_url": "www.blog.hrrxr.cn/Article/details/507421.sHtML"
+    },
+{
+      "platform": "胖东来澄清“无门槛招聘刑满释放人员”：排除性侵等恶性犯罪前科人员",
+      "share_url": "www.blog.hrrxr.cn/Article/details/792250.sHtML"
+    },
+    {
+      "platform": "蛋仔沈昭礼温组合技转场",
+      "share_url": "www.blog.hrrxr.cn/Article/details/947760.sHtML"
+    },
+{
+      "platform": "瞬时回放 v1.0.0｜错过精彩瞬间？一键保存「刚刚发生的画面」",
+      "share_url": "www.blog.hrrxr.cn/Article/details/569327.sHtML"
+    },
+{
+      "platform": "北约多国在俄打击范围内",
+      "share_url": "www.blog.hrrxr.cn/Article/details/697990.sHtML"
+    },
+{
+      "platform": "杭州一地铁站广告被吐槽“像朝乘客竖中指”，工作人员回应：广告在上刊前都有报备，会审核排查相关情况",
+      "share_url": "www.blog.hrrxr.cn/Article/details/903727.sHtML"
+    },
+{
+      "platform": "我是周星驰影迷，看到很多人说沈腾已经超越了周星驰，这个观点我并不反对。江山代有才人出，各领风骚数百年，没有人能够永远是第一，周星驰有过自己的光辉岁月这就够了。而且中国的电影历史不太可能绕开他不谈的。",
+      "share_url": "www.blog.hrrxr.cn/Article/details/695624.sHtML"
+    },
+{
+      "platform": "金山云：上半年营收 57.76 亿元，同比增长 33.7%",
+      "share_url": "www.blog.hrrxr.cn/Article/details/738652.sHtML"
+    },
+{
+      "platform": "迷你世界致00后的一封信",
+      "share_url": "www.blog.hrrxr.cn/Article/details/131120.sHtML"
+    },
+{
+      "platform": "微信开放520红包默认属赠与",
+      "share_url": "www.blog.hrrxr.cn/Article/details/956701.sHtML"
+    },
+{
+      "platform": "公积金此次变化意味着什么",
+      "share_url": "www.blog.hrrxr.cn/Article/details/587674.sHtML"
+    },
+{
+      "platform": "高管接私活赚千万被发现后全捐公司",
+      "share_url": "www.blog.hrrxr.cn/Article/details/285236.sHtML"
+    },
+    {
+      "platform": "马来西亚总理强调台湾属于中国",
+      "share_url": "www.blog.hrrxr.cn/Article/details/163742.sHtML"
+    },
+{
+      "platform": "男子立遗嘱财产给弟弟不给妻儿引纷争",
+      "share_url": "www.blog.hrrxr.cn/Article/details/690893.sHtML"
+    },
+{
+      "platform": "流星雨撞上日全食！就在明晚，百年难遇的天象大戏来了",
+      "share_url": "www.blog.hrrxr.cn/Article/details/718656.sHtML"
+    },
+{
+      "platform": "多地悄然布局县城大学圈",
+      "share_url": "www.blog.hrrxr.cn/Article/details/523451.sHtML"
+    },
+{
+      "platform": "HarmonyOS 圆角渲染优化实战：从「clip陷阱」到「borderRadius原生加速」的GPU调优方案",
+      "share_url": "www.blog.hrrxr.cn/Article/details/654324.sHtML"
+    },
+{
+      "platform": "河南暴雨农户蹚没腰积水抢收花生",
+      "share_url": "www.blog.hrrxr.cn/Article/details/938443.sHtML"
+    },
+{
+      "platform": "狮驼岭3v3，为什么沙僧直接冲上去干最猛的大鹏？",
+      "share_url": "www.blog.hrrxr.cn/Article/details/513399.sHtML"
+    },
+{
+      "platform": "做磁共振检查，忘了摘“999足金”的金镯子，万万没想到……",
+      "share_url": "www.blog.hrrxr.cn/Article/details/510818.sHtML"
+    },
+{
+      "platform": "净利最高暴增 977%，老牌教培释放回暖信号",
+      "share_url": "www.blog.hrrxr.cn/Article/details/667425.sHtML"
+    },
+{
+      "platform": "《牛来》火了？我用ThreeJs实现了一个简易版的，代码全送给你，文章最后附演示效果",
+      "share_url": "www.blog.hrrxr.cn/Article/details/554936.sHtML"
+    }
+]
+}
+<h2>行业趋势点评</h2><br>
+https://github.com/lunarichard43/xetrlgil/blob/main/20260825TagRM.json</br>https://github.com/morganbruce57/idomaxzy/blob/main/202608254V6IF.json</br>https://github.com/clarkemaria9/plfeglt/blob/main/20260825uYdCf.json</br>https://github.com/nguyenrichard997/yjjpedge/blob/main/20260825IvZ60.json</br>https://github.com/leekelly041/yxtdlzfi/blob/main/20260825E1aI8.json</br>
+<hr></hr><hr></hr><br>
+<h2>**AI Builders Digest* | 每日06:00自动播报 | 数据来源：</h2><br>
+https://github.com/leonardandrea101/mgpfnvlx/blob/main/20260825eQ2A8.json</br>https://github.com/jacksonjonathan7651/wbfju/blob/main/20260825BcWrn.json</br>https://github.com/thomasmiguel0595/ghqgp/blob/main/20260824r4WVm.json</br>https://github.com/diazedward8191/tsabn/blob/main/20260824Q93NI.json</br>https://github.com/arnoldjennifer8/atbvssvg/blob/main/20260824kXe3x.json</br>
+<hr></hr><br>
+<p>*报告生成时间：2026年08月25日04时12分47秒*</p>
+<br>
+<p>*数据来源：新浪财经、公开媒体报道*</p>
